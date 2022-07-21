@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+body{
+
+  margin: 0px;
+  position: relative;
+}
+.manubar_all, .home, .aboutus, .contactus, .timetable
+{
+  background-color: black;
+}  
+#image1:hover,#image2:hover,#image3:hover,#image4:hover
+{
+    cursor: pointer;
+}
+.manubar
+{
+  margin-top: -4.5px;
+}
+.manubar .bars 
+{
+  text-align: center;
+  display: inline-block;
+  margin-top: 17px;
+}
+#image2,#image3,#image4
+{
+  border: none;
+}
+#image1
+{
+ border: 3px solid white;
+  border-radius:50% ; 
+}
+.bars img{
+  margin: 1%;
+}
+
+}
+.bars img:hover{
+  opacity: 0.5;
+}
+.aboutus
+{
+ display: none;
+
+}
+
+.contactus
+{
+  display: none;
+}
+
+.timetable
+{
+  display: none;
+}
+
+.notice
+{
+  margin-top: 50px;
+}
+.process
+{
+  margin-top: 50px;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #D1CCCC;
+   color: black;
+   text-align: center;
+}
+.social img:hover
+{
+  opacity: 0.5;
+}
+table,th,td
+{
+  border: 2px solid white;
+  border-collapse: collapse;
+  color: white;
+  padding: 10px;
+}
+td
+{
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+ header img
+  {
+    margin-top: 72px;
+    position:relative;
+    width:100%;
+    height:100%;
+
+  }
+.num1
+{
+  font-size: 1.5rem;
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom:14px;
+  background-color:#354969;
+  
+}
+  .notice
+  {
+
+    text-align: center;
+  }
+  .process h2,.process li
+  {
+    text-align: center;
+  }
+  .notice img{
+    width:70%;
+     height:70%;
+  }
+  .process ul{
+    color: white;
+    list-style-type: none;
+    width:100%;
+     height:100%;
+     
+  }
+  .process li{
+    font-size: 20px;
+    text-align: left;
+    
+  }
+
+#mob
+{
+  font-size: 1rem;
+  text-align: center;
+}
+#icon1
+{
+  padding-right: 20px;
+}
+.raj
+{
+  width: 400px;
+  height:430px;
+}
+.aboutweb
+{
+  width: 80%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.mission
+{
+  width: 80%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.Responsibility
+{
+  width: 80%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.rules
+{
+  width: 80%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.contactus
+{
+  padding-bottom: 10px;
+}  
+.timetable
+{
+  padding-bottom: 50px;
+}
+}
+@media only screen and (max-width: 444px)
+{
+  .raj
+  {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 506px)
+{
+  .map{
+    width: 300px;
+    height: 250px
+  }
+} 
+
+
+@media only screen and (min-width: 800px)
+{
+header img
+  {
+    position:relative;
+    width:100%;
+    height: auto;
+
+  }
+  .num1
+  {
+    background-color: rgba(0,0,0,0.4);
+  }
+  .notice
+  {
+    text-align: left;
+    display: inline-block;
+  }
+  .notice img{
+    width:350px;
+     height:400px;
+     margin-left: 70px;
+  }
+  .notice h2
+  {
+    text-align-last: left;
+    margin-left: 115px;
+ }
+ .process
+ {
+  float: right;
+  margin-right: 50px;
+ }
+ .process ul
+ {
+     color: white;
+     list-style-type: none;
+     width:450px;
+     height:400px;
+    
+ }
+ .process h2
+  {
+    position: relative;
+    text-align: right;
+    right: 130px;
+  }
+  .process li
+  {
+    margin-right:30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+ #mob
+  {
+    font-size: 22px;
+    text-align: right;
+  }
+  .num1
+  {
+    font-size:2.5rem;
+    width: 100%;
+  }
+  #icon1
+{
+  padding-right: 40px;
+}
+.raj
+{
+  width: 400px;
+  height:430px;
+}
+.footer
+{
+  display: inline-block;
+}
+.aboutweb
+{
+  width: 70%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.mission
+{
+  width: 70%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.Responsibility
+{
+  width: 70%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+.rules
+{
+  width: 70%;
+  position: relative; left: 50%; transform: translate(-50%);
+}
+
+}
